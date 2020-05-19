@@ -9,10 +9,13 @@
   <body>
     <h1 id = "title"></h1>
     <p id = "explanation"></p>
-    <form id = survey-form>
-      <input id = "name" type = text>
-      <input id = "email" type = email>
-      <input id = "number" type = number>
+    <form id = "survey-form">
+      <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+      <label id="email-label" for="email">Email</label>
+        <input id = "email" type = "email" email="email" class="form-control" placeholder="Enter email" required>
+      <label id= "number-label" for="number">Number</label>
+        <input id = "number" type = "number" number= "number" class= "form-control" placeholder= "number i" required>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
